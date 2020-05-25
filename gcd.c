@@ -16,7 +16,7 @@ int main()
         printf("Enter the second positive integer (b): ");
         scanf("%ld", &b);
 
-        printf("Greatest common divisor of %d and %d is: %d", a, b, gcd(a,b));
+        printf("Greatest common divisor of %ld and %ld is: %d", a, b, gcd(a,b));
 
         printf("\nDo you want to continue? Press Y or N for Yes/No: ");
         scanf("%s", &choice);
